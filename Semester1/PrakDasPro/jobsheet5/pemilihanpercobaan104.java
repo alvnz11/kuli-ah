@@ -6,15 +6,14 @@ public class pemilihanpercobaan104 {
 
         System.out.print("Masukkan angka : ");
         int angka = input04.nextInt();
+        input04.close();
 
         if (angka % 2 == 0) {
-            System.out.println("Genap");
+            System.out.println("Angka " + angka + " bilangan genap");
         } else {
-            System.out.println("Ganjil");
+            System.out.println("Angka " + angka + " bilangan ganjil");
         }
 
-        input04.close();
-    
     }
 
 }
