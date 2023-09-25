@@ -12,6 +12,7 @@ public class Lingkaran04 {
         r = input.nextInt();
         keliling = 2*phi*r;
         luas = phi*r*r;
+        input.close();
 
         System.out.println(keliling);
         System.out.println(luas);

@@ -18,6 +18,7 @@ public class HargaBayar04 {
         merkBuku = input.next();
         System.out.println("Masukkan jumlah halaman buku yang anda beli ");
         halBuku = input.nextInt();
+        input.close();
 
         total = harga*jumlah;
         jmlDis = total*(dis/100);
