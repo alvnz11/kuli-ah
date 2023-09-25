@@ -1,2 +1,2 @@
-# kuli-ah
-semoga IPK ku 4.0
+# semoga IPK ku 4.0
+
