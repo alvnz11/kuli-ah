@@ -7,13 +7,13 @@ public class Pemilihan2Percobaan204 {
         Scanner input04 = new Scanner(System.in);
 
         System.out.print("Masukkan sudut pertama segitiga\t : ");
-        int sudut1 = input04.nextInt();
+        float sudut1 = input04.nextFloat();
         System.out.print("Masukkan sudut kedua segitiga\t : ");
-        int sudut2 = input04.nextInt();
+        float sudut2 = input04.nextFloat();
         System.out.print("Masukkan sudut ketiga segitiga\t : ");
-        int sudut3 = input04.nextInt();
+        float sudut3 = input04.nextFloat();
 
-        int totalSudut = sudut1 + sudut2 + sudut3;
+        float totalSudut = sudut1 + sudut2 + sudut3;
 
         if (totalSudut == 180) {
             if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)) {
@@ -26,5 +26,8 @@ public class Pemilihan2Percobaan204 {
                 System.out.println("Segitiga tersebut adalah segitiga sembarang");
         } else
             System.out.println("Bukan Segitiga");
+    
+        input04.close();        
     }
+
 }
