@@ -20,6 +20,7 @@ public class WhileKelipatan04 {
                 counter++;
             }
         }
+        scan.close();
         rata = (double) jumlah / counter;
 
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
