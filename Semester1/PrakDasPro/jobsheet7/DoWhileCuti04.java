@@ -26,6 +26,10 @@ public class DoWhileCuti04 {
                 } else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
                 }
+            } else if (konfirmasi.equalsIgnoreCase("t")) {
+                break;
+            } else {
+                System.out.println("Input yang anda masukkan salah, coba lagi!");
             }
         } while (jatahCuti > 0);
         sc.close();
