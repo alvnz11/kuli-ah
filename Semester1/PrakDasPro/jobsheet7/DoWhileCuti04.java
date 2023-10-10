@@ -4,21 +4,21 @@ import java.util.*;
 
 public class DoWhileCuti04 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int jatahCuti, jumlahHari;
         String konfirmasi;
 
         System.out.print("Jatah cuti : ");
-        jatahCuti = sc.nextInt();
+        jatahCuti = input.nextInt();
 
         do {
             System.out.print("Apakah Anda ingin mengambil cuti (y/t)? ");
-            konfirmasi = sc.next();
+            konfirmasi = input.next();
 
             if (konfirmasi.equalsIgnoreCase("y")) {
                 System.out.print("Jumlah hari : ");
-                jumlahHari = sc.nextInt();
+                jumlahHari = input.nextInt();
 
                 if (jumlahHari <= jatahCuti) {
                     jatahCuti -= jumlahHari;
@@ -32,7 +32,7 @@ public class DoWhileCuti04 {
                 System.out.println("Input yang anda masukkan salah, coba lagi!");
             }
         } while (jatahCuti > 0);
-        sc.close();
+        input.close();
     }
     
 }
