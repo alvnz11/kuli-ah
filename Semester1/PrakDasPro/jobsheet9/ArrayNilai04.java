@@ -6,14 +6,16 @@ public class ArrayNilai04 {
 
         int[] nilaiAkhir = new int[10];
 
-        for (int i = 0; i < 10; i++) { 
+        for (int i = 0; i < nilaiAkhir.length; i++) { 
             System.out.print("Masukkan nilai akhir ke-" + i + " : ");
             nilaiAkhir[i] = sc.nextInt();
         }
         
         for (int i = 0; i < 10; i++) {
-            System.out.println("Nilai akhir ke-" + i + " adalah " + nilaiAkhir[i]);
-        }
+            String output = (nilaiAkhir[i] > 70) ? "Mahasiswa ke-" + i + " lulus! " : "Mahasiswa ke-" + i + " tidak lulus! ";
+            System.out.println(output);
+            }
+
     sc.close();
     }
     
