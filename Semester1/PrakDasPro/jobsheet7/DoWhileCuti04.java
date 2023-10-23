@@ -33,6 +33,5 @@ public class DoWhileCuti04 {
             }
         } while (jatahCuti > 0);
         input.close();
-    }
-    
+    }    
 }

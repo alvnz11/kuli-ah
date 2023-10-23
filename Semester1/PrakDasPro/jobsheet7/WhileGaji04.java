@@ -38,5 +38,4 @@ public class WhileGaji04 {
         scan.close();
         System.out.println("Total gaji lembur : " + totalGajiLembur);
     }
-    
 }
