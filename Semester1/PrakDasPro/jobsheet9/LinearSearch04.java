@@ -31,5 +31,6 @@ public class LinearSearch04 {
         } else {
             System.out.println("Key tidak ditemukan");
         }
+    sc.close();    
     }
 }
