@@ -19,6 +19,13 @@ public class Quiz {
                 int answer = input.nextInt();
                 input.nextLine();
                 success = (answer == number);
+                if (answer > number) {
+                    System.out.println("Jawaban lebih kecil!");
+                } else if (answer < number){
+                    System.out.println("Jawaban lebih besar!");
+                } else {
+                    System.out.println("Tebakkan anda benar");
+                }
             } while (!success);
 
             System.out.println("Apakah anda ingin mengulang permainan (Y/y)?");
